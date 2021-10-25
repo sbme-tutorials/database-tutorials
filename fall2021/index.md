@@ -46,7 +46,7 @@ extra office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Sub
         
 * Week 3
     * SQL Constrains and join statements
-        *[notes] (/database-tutorials/fall2021/notes/SBEw03){:target="_blank"}
+        * [notes] (/database-tutorials/fall2021/notes/SBEw03){:target="_blank"}
         
 * week 4
     * python installation: [windows](https://docs.anaconda.com/anaconda/install/windows/) [Linux](https://docs.anaconda.com/anaconda/install/linux/)    
