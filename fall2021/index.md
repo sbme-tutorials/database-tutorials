@@ -38,42 +38,42 @@ extra office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Sub
 
 * Week 1
     * [Slides]({{ site.baseurl }}{% link fall2021/presentations/1_week1/index.md %}){:target="_blank"}
-    * [notes]({{ site.baseurl }}{% link fall2021/notes/SBEw01.md %}){:target="_blank"}
+    * [notes](/database-tutorials/fall2021/notes/SBEw01){:target="_blank"}
 
 * Week 2
     * SQL statements
-        * [notes]({{ site.baseurl }}{% link fall2021/notes/SBEw02.md %}){:target="_blank"}
+        * [notes](/database-tutorials/fall2021/notes/SBEw02){:target="_blank"}
         
 * Week 3
     * SQL Constrains and join statements
-        *[notes] ({{ site.baseurl }}{% link fall2021/notes/SBEw03.md %}){:target="_blank"}
+        *[notes] (/database-tutorials/fall2021/notes/SBEw03){:target="_blank"}
         
 * week 4
     * python installation: [windows](https://docs.anaconda.com/anaconda/install/windows/) [Linux](https://docs.anaconda.com/anaconda/install/linux/)    
     * Python Introduction
-        * [notes]({{ site.baseurl }}{% link fall2021/notes/SBEw04pythonIntroduction.md %}){:target="_blank"}
+        * [notes](/database-tutorials/fall2021/notes/SBEw04pythonIntroduction){:target="_blank"}
     * python quick source:[w3schools](https://www.w3schools.com/python/)
     * python exercises:[exercism](https://exercism.io/)
 
 * week 5
     * Python mySQL
-        * [notes]({{ site.baseurl }}{% link fall2021/notes/SBEw05pythonMysql.md %}){:target="_blank"}
+        * [notes](/database-tutorials/fall2021/notes/SBEw05pythonMysql){:target="_blank"}
     * HTML quick source:[w3schools](https://www.w3schools.com/html/default.asp)
     * CSS exercises:[w3schools](https://www.w3schools.com/css/default.asp)
     * Javascript exercises:[w3schools](https://www.w3schools.com/js/default.asp)
 
 * week 6
     * mySQL Exercise:
-        * [notes]({{ site.baseurl }}{% link fall2021/notes/SBEw06.md %}){:target="_blank"}
+        * [notes](/database-tutorials/fall2021/notes/SBEw06){:target="_blank"}
 
 * Week 7
     * Basic Flask App:
-        * [notes]({{ site.baseurl }}{% link fall2021/notes/SBEw07.md %}){:target="_blank"}
+        * [notes](/database-tutorials/fall2021/notes/SBEw07){:target="_blank"}
 
 * Week 8
     * Dynamic Flask App:
-        * [notes]({{ site.baseurl }}{% link fall2021/notes/SBEw08.md %}){:target="_blank"}
+        * [notes](/database-tutorials/fall2021/notes/SBEw08){:target="_blank"}
 
 ## Project
 
-* [main-statement]({{ site.baseurl }}{% link fall2021/notes/SBEProjectStatment.md %}){:target="_blank"}
+* [main-statement](/database-tutorials/fall2021/notes/SBEProjectStatment){:target="_blank"}
