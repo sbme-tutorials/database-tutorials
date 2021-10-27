@@ -1,29 +1,16 @@
 * TOC
 {:toc}
 # Tutorial one
-This week we will talk about DMS and a quick intro for the Basic SQL statement.
+This week we will talk about DMS and a quick intro for the Basic SQL statement:
+1. CREATE
+2. INSERT
+3. UPDATE
+4. DELETE
+5. SELECT
 
-## start ampps
-type the following in your browser [http://localhost/ampps/](http://localhost/ampps/)
-you should see
-![](../images/amppshome.png)
 
-## ampps tour
+## CREATE statement
 
-click on phpmyadmin or just type [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) in your browser.
-you should see
-![](../images/phpmyadmin.png)
-
-* on your left **new** we help you building new database
-* select your database
-* you can view your database structure or adding new table using **structure** tap
-* SQL or Query tap to start writing  queries on your database
-
-## Queries time
-
-we created the table from **phpmyadmin** lets write an equivalent query.
-
-### CREATE statement
 ```
 CREATE TABLE table_name (
     coulumn1 datatype constraint,
@@ -47,7 +34,7 @@ CREATE TABLE students(
 so what are available data-types for SQL ? For MoreInfo you can visit [W3schools datatypes](https://www.w3schools.com/sql/sql_datatypes.asp)
 and for constraint visit [W3schools constraint](https://www.w3schools.com/sql/sql_constraints.asp) and for sure it will be explained later on during the course.
 
-### INSERT statement
+## INSERT statement
 ```
 INSERT INTO table_name (column1 ,
                         column2, 
@@ -75,7 +62,7 @@ INSERT INTO students (Fname,
 
 now once we inserted a record in our database how do we retrieve what is in our database
 
-### SELECT statement
+## SELECT statement
 
 ```
 SELECT column1 , column2 , .... 
@@ -89,7 +76,7 @@ SELECT * from students;
 ```
 
 **Question?** Take a moment and think is it practical to retrieve  all the data from the data base ?
-#### where clause
+### where clause
 used to select data that serves a particular condition.
 
 ```
@@ -113,7 +100,7 @@ FROM table_name
 WHERE condition1 AND condition2 OR condition3 ...; 
 ```
 
-#### ORDER clause
+### ORDER clause
 
 we can order the retrieved data by any mean of a certain column values.
 
@@ -127,7 +114,7 @@ SELECT Fname , Lname
 
 the update clause used to update the value of one , more or all database entries in a table.
 
-### UPDATE statement
+## UPDATE statement
 
 ```
 UPDATE table_name
@@ -146,7 +133,7 @@ UPDATE students
 
 we can delete one or more data base entry from our table controlled by a condition.
 
-### DELETE statement
+## DELETE statement
 
 ```
 DELETE FROM table_name
