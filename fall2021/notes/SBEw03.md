@@ -101,7 +101,7 @@ now we built a relational model lets join both tables and look at it. BUT first 
 
 ### many to many relationships
 
-if we redesigned the parent table to have both father and mothers where they share the same children's now its considered a many to many relationship.
+if we redesigned the parent table to have both father and mothers WHERE they share the same children's now its considered a many to many relationship.
 
 so we need to build a junction table.
 
@@ -166,9 +166,9 @@ For storage engines supporting foreign keys, MySQL rejects any INSERT or UPDATE 
 
 When an UPDATE or DELETE operation affects a key value in the parent table that has matching rows in the child table, the result depends on the referential action specified using ON UPDATE and ON DELETE subclauses of the FOREIGN KEY clause. MySQL supports five options regarding the action to be taken, listed here: 
 
-+ CASCADE: Delete or update the row from the parent table, and automatically delete or update the matching rows in the child table. Both ON DELETE CASCADE and ON UPDATE CASCADE.
++ CASCADE: Delete or update the row FROM the parent table, and automatically delete or update the matching rows in the child table. Both ON DELETE CASCADE and ON UPDATE CASCADE.
 
-+ SET NULL: Delete or update the row from the parent table, and set the foreign key column or columns in the child table to NULL. Both ON DELETE SET NULL and ON UPDATE SET NULL **make sure that you have not declared the columns in the child table as NOT NULL**.
++ SET NULL: Delete or update the row FROM the parent table, and set the foreign key column or columns in the child table to NULL. Both ON DELETE SET NULL and ON UPDATE SET NULL **make sure that you have not declared the columns in the child table as NOT NULL**.
 
 + RESTRICT or NO ACTION: both of them are the same they Rejects the delete or update operation for the parent.
 
@@ -177,7 +177,7 @@ When an UPDATE or DELETE operation affects a key value in the parent table that 
 
 ## JOIN clause
 
-JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+JOIN clause is used to combine rows FROM two or more tables, based on a related column between them.
 there is must be a relation between the two tables via certain column
 
 ```
@@ -191,8 +191,8 @@ Different type of JOINS
 | JOIN | Description |
 | ------------- |:-------------:|
 | INNER JOIN | Returns records that have matching values in both tables|
-| LEFT (OUTER) JOIN | Return all records from the left table, and the matched records from the right table |
-| RIGHT (OUTER) JOIN | Return all records from the right table, and the matched records from the left table |
+| LEFT (OUTER) JOIN | Return all records FROM the left table, and the matched records FROM the right table |
+| RIGHT (OUTER) JOIN | Return all records FROM the right table, and the matched records FROM the left table |
 | FULL (OUTER) JOIN | Return all records when there is a match in either left or right table |
 
 Example
@@ -217,4 +217,55 @@ SELECT column_name(s) FROM table2;
 
 it is funny right and not that hard **it`s safe you can do it at home**.
 
-moreover next class ISA.
+## Exercises
+Regard the following Relational model
+
+<img src="../images/pract1.png" alt="drawing" width="700"/>
+
+
+### **Q1** Retrieve employees names who are working in the Research department.
+
+* Nested Query:
+```
+SELECT FNAME,LNAME
+FROM employee
+WHERE DNO in (SELECT Dnumber FROM DEPARTMENT WHERE DName = "Research");
+```
+
+* JOIN Query:
+```
+SELECT FNAME,LNAME FROM 
+employee JOIN department ON DNO = DNUMBER 
+WHERE DNAME = 'Research'
+```
+
+### **Q2** Retrieve project names WHERE the last name of the department manager is Wong
+
+* JOIN Query:
+```
+SELECT PNAME FROM 
+employee JOIN department ON MGRSSN = SSN
+JOIN project ON DNUM = DNUMBER 
+WHERE LNAME = "Wong"
+```
+
+### **Q3** Retrieve managers names having projects in 'Stafford'
+
+
+* JOIN Query
+```
+SELECT FNAME,LNAME 
+FROM employee JOIN department ON MGRSSN = SSN 
+JOIN project ON DNUM = DNUMBER 
+WHERE Plocation = "Stanfford"
+```
+
+### **Q4** list departments names with it`s average employees salary
+
+* JOIN Query
+```
+SELECT DName,AVG(Salary) 
+FROM employee JOIN department ON Dno = DNumber 
+Group by Dno
+```
+

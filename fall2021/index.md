@@ -46,7 +46,7 @@ extra office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Sub
 * Week 3
     * [SQL Constrains and join statements](/database-tutorials/fall2021/notes/SBEw03){:target="_blank"}
         
-* week 4
+<!-- * week 4
     * python installation: [windows](https://docs.anaconda.com/anaconda/install/windows/) [Linux](https://docs.anaconda.com/anaconda/install/linux/)    
     * [Python Introduction](/database-tutorials/fall2021/notes/SBEw04pythonIntroduction){:target="_blank"}
     * python quick source:[w3schools](https://www.w3schools.com/python/)
@@ -69,4 +69,4 @@ extra office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Sub
 
 ## Project
 
-* [main-statement](/database-tutorials/fall2021/notes/SBEProjectStatment){:target="_blank"}
+* [main-statement](/database-tutorials/fall2021/notes/SBEProjectStatment){:target="_blank"} -->
