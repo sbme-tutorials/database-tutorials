@@ -30,11 +30,16 @@ extra office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Sub
 |   3  | Join statments and SQL Constrains| ---- |
 
 ## Required installations
+1. Install Python (Two Options-please choose one):
+    1.  Anaconda installation: [windows](https://docs.anaconda.com/anaconda/install/windows/) 
+    1.  Python installation: [windows](https://www.python.org/downloads/release/python-3712/) 
+2. After installation Python you need to download two python packages:
+    * install MYSQL connector: write in your Command Prompt ``` pip install mysql-connector-python ```
+    * install Flask: write in your Command Prompt ``` pip install -u flask ```
 
 
-## Tutorials
 
-### SBE306
+## Notes
 
 * Week 1
     * [Slides]({{ site.baseurl }}{% link fall2021/presentations/1_week1/index.md %}){:target="_blank"}
@@ -47,8 +52,7 @@ extra office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Sub
     * [SQL Constrains and join statements](/database-tutorials/fall2021/notes/SBEw03){:target="_blank"}
         
 * week 4
-    * python installation: [windows](https://docs.anaconda.com/anaconda/install/windows/) 
-    * [Python Introduction](/database-tutorials/fall2021/notes/SBEw04pythonIntroduction){:target="_blank"}
+    * [Introduction to Python](/database-tutorials/fall2021/notes/SBEw04pythonIntroduction){:target="_blank"}
     * python quick source:[w3schools](https://www.w3schools.com/python/)
     * python exercises:[exercism](https://exercism.io/)
 
