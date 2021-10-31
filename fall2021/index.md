@@ -53,14 +53,15 @@ extra office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Sub
         
 * week 4
     * [Introduction to Python](/database-tutorials/fall2021/notes/SBEw04pythonIntroduction){:target="_blank"}
-    * python quick source:[w3schools](https://www.w3schools.com/python/)
-    * python exercises:[exercism](https://exercism.io/)
+    * python quick source:[w3schools](https://www.w3schools.com/python/){:target="_blank"}
+    * python exercises:[exercism](https://exercism.io/){:target="_blank"}
 
 * week 5
     * [Python mySQL](/database-tutorials/fall2021/notes/SBEw05pythonMysql){:target="_blank"}
-    * HTML practice:[w3schools](https://www.w3schools.com/html/default.asp)
-    * CSS practice:[w3schools](https://www.w3schools.com/css/default.asp)
-    * Javascript practice:[w3schools](https://www.w3schools.com/js/default.asp)
+    * Resources:
+        1. [HTML](https://www.w3schools.com/html/default.asp){:target="_blank"}
+        2.  [CSS](https://www.w3schools.com/css/default.asp){:target="_blank"}
+        3.  [Javascript](https://www.w3schools.com/js/default.asp){:target="_blank"}
 
 <!-- * week 6
     * [mySQL Exercise](/database-tutorials/fall2021/notes/SBEw06){:target="_blank"}
