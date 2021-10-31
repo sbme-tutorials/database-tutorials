@@ -60,8 +60,8 @@ extra office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Sub
     * [Python mySQL](/database-tutorials/fall2021/notes/SBEw05pythonMysql){:target="_blank"}
     * Resources:
         1. [HTML](https://www.w3schools.com/html/default.asp){:target="_blank"}
-        2.  [CSS](https://www.w3schools.com/css/default.asp){:target="_blank"}
-        3.  [Javascript](https://www.w3schools.com/js/default.asp){:target="_blank"}
+        2. [CSS](https://www.w3schools.com/css/default.asp){:target="_blank"}
+        3. [Javascript](https://www.w3schools.com/js/default.asp){:target="_blank"}
 
 <!-- * week 6
     * [mySQL Exercise](/database-tutorials/fall2021/notes/SBEw06){:target="_blank"}
