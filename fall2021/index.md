@@ -36,7 +36,8 @@ extra office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Sub
 2. After installation Python you need to download two python packages:
     * install MYSQL connector: write in your Command Prompt ``` pip install mysql-connector-python ```
     * install Flask: write in your Command Prompt ``` pip install -u flask ```
-3. You need to install mysql workbench to enable database [here](https://dev.mysql.com/downloads/workbench/)
+3. You need to install mysql batabase enginer [here](https://dev.mysql.com/downloads/installer/)
+4. You need to install mysql workbench to enable database [here](https://dev.mysql.com/downloads/workbench/)
 
 
 ## Notes
