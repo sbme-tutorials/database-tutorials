@@ -25,7 +25,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql"
+  passwd="root"
 )
 
 print(mydb) 
@@ -44,7 +44,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql"
+  passwd="root"
 )
 
 mycursor = mydb.cursor()
@@ -65,7 +65,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql"
+  passwd="root"
 )
 
 mycursor = mydb.cursor()
@@ -81,7 +81,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql",
+  passwd="root",
   database="MyPythonDatabase"
 )
 mycursor = mydb.cursor()
@@ -99,7 +99,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql",
+  passwd="root",
   database="MyPythonDatabase"
 )
 
@@ -121,7 +121,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql",
+  passwd="root",
   database="MyPythonDatabase"
 )
 mycursor = mydb.cursor()
@@ -142,7 +142,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql",
+  passwd="root",
   database="MyPythonDatabase"
 )
 mycursor = mydb.cursor()
@@ -178,7 +178,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql",
+  passwd="root",
   database="MyPythonDatabase"
 )
 mycursor = mydb.cursor()
@@ -196,7 +196,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql",
+  passwd="root",
   database="MyPythonDatabase"
 )
 mycursor = mydb.cursor()
@@ -217,7 +217,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql",
+  passwd="root",
   database="MyPythonDatabase"
 )
 mycursor = mydb.cursor()
@@ -241,7 +241,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql",
+  passwd="root",
   database="MyPythonDatabase"
 )
 mycursor = mydb.cursor()
@@ -279,7 +279,7 @@ import mysql.connector, json
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql",
+  passwd="root",
   database="MyPythonDatabase"
 )
 mycursor = mydb.cursor()
@@ -335,7 +335,7 @@ def hello_world():
    mydb = mysql.connector.connect(
    host="localhost",
    user="root",
-   passwd="mysql",
+   passwd="root",
    database="MyPythonDatabase"
    )
    mycursor = mydb.cursor()

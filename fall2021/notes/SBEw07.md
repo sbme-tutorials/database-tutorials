@@ -245,7 +245,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql",
+  passwd="root",
   database="MyPythonDatabase"
 )
 mycursor = mydb.cursor()
@@ -323,7 +323,7 @@ from flask import Flask, redirect, url_for, request,render_template
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql",
+  passwd="root",
   database="MyPythonDatabase"
 )
 mycursor = mydb.cursor()
@@ -369,7 +369,7 @@ from flask import Flask, redirect, url_for, request,render_template
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql",
+  passwd="root",
   database="MyPythonDatabase"
 )
 mycursor = mydb.cursor()
@@ -419,7 +419,7 @@ from flask import Flask, redirect, url_for, request,render_template
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="mysql",
+  passwd="root",
   database="MyPythonDatabase"
 )
 mycursor = mydb.cursor()
