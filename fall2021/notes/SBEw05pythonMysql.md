@@ -257,45 +257,6 @@ print(mycursor.rowcount, "record(s) deleted")
 
 **Note you can try all what you have learns in mysql tutorials to find out the differences**
 
-## Convert selected data to json format
-
-Json: In computing, JavaScript Object Notation (JSON)  is an open-standard file format that uses human-readable text to transmit data objects consisting of attribute–value pairs and array data types. It is a very common data format, with a diverse range of applications, such as serving as replacement for XML in AJAX systems.
-
-Json example: if we examined data we inserted in table **demo** and  rewrite it in jsn format it will look like
-```
-[
-    {"name": "Peter", "id": 4}, 
-    {"name": "Amy", "id": 652}, 
-    {"name": "Michael", "id": 345}, 
-    {"name": "Sandy", "id": 2}
-]
-```
-
-it appears to be a list of dictionaries with all the records from the database. Here is the conde to convert the data to json format
-
-```python
-import mysql.connector, json
-
-mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  passwd="root",
-  database="MyPythonDatabase"
-)
-mycursor = mydb.cursor()
-
-mycursor.execute("SELECT * FROM demo")
-row_headers=[x[0] for x in mycursor.description] #this will extract row headers
-
-myresult = mycursor.fetchall()
-
-json_data=[]
-for result in myresult:
-    json_data.append(dict(zip(row_headers,result)))
-jsonfile = json.dumps(json_data)
-print (jsonfile)
-```
-
 ## Python server
 
 Now we need a running server to recieve user request using jason and send back resulted jason file.
@@ -307,36 +268,40 @@ or
 pip install -u flask
 ```
 
-to make sure of the installation run the following code
+### to make sure of the installation run the following code
 ```python
 from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
-   return ('Hello Worl')
+def home():
+   return ('Home')
 
 if __name__ == '__main__':
    app.run(host='127.0.0.1', port=80)
 ```
 
-now open your browser and write locahost
+now open your browser and write 127.0.0.1:80
 
-Lets send out demo table data from server to the browser
+### Lets send out demo data from server to the browser
 
 ```python
 from flask import Flask
-import mysql.connector, json
+import mysql.connector
 
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
+def home():
+   return ('Home')
+
+@app.route('/select')
+def select():
    mydb = mysql.connector.connect(
    host="localhost",
    user="root",
    passwd="root",
-   database="MyPythonDatabase"
+   database="sben2302"
    )
    mycursor = mydb.cursor()
 
@@ -344,15 +309,9 @@ def hello_world():
    row_headers=[x[0] for x in mycursor.description] #this will extract row headers
 
    myresult = mycursor.fetchall()
-
-   json_data=[]
-   for result in myresult:
-      json_data.append(dict(zip(row_headers,result)))
-   jsonfile = json.dumps(json_data)
-   return (jsonfile)
-
+   return (str(myresult))
 if __name__ == '__main__':
-   app.run()
+   app.run(host='127.0.0.1', port=80)
 ```
 
 Moreover next class ISA.
