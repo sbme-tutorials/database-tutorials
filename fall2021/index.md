@@ -64,13 +64,13 @@ extra office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Sub
         2. [CSS](https://www.w3schools.com/css/default.asp){:target="_blank"}
         3. [Javascript](https://www.w3schools.com/js/default.asp){:target="_blank"}
 
-<!-- * week 6
-    * [mySQL Exercise](/database-tutorials/fall2021/notes/SBEw06){:target="_blank"}
+* week 6
+    * [mySQL Exercises](/database-tutorials/fall2021/notes/SBEw06){:target="_blank"}
 
 * Week 7
     * [Basic Flask App](/database-tutorials/fall2021/notes/SBEw07){:target="_blank"}
 
-* Week 8
+<!-- * Week 8
     * [Dynamic Flask App](/database-tutorials/fall2021/notes/SBEw08){:target="_blank"}
 
 ## Project
