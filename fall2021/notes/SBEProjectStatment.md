@@ -25,7 +25,6 @@
 2. Build a full stack web application for the chosed department
 3. The application should enable the user to insert data about the departments modules and retrieve data also about these departments such as
 staff in this department or devices used in it.
-4. Use Bootstrap for front end part (plain Html,Css, and java script will not be consiedered)
 
 ### Specific  (Bonus)
 
