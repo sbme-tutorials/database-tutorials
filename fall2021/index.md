@@ -70,9 +70,9 @@ extra office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Sub
 * Week 7
     * [Basic Flask App](/database-tutorials/fall2021/notes/SBEw07){:target="_blank"}
 
-<!-- * Week 8
+* Week 8
     * [Dynamic Flask App](/database-tutorials/fall2021/notes/SBEw08){:target="_blank"}
 
 ## Project
 
-* [main-statement](/database-tutorials/fall2021/notes/SBEProjectStatment){:target="_blank"} -->
+* [main-statement](/database-tutorials/fall2021/notes/SBEProjectStatment){:target="_blank"}

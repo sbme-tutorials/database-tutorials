@@ -5,6 +5,7 @@
 * Hospital Information Systems(HIS).
 * ERD and SQL DBMS.
 
+## Deadlines: TBC
 
 ## Required
 
@@ -24,7 +25,7 @@
 2. Build a full stack web application fot that department
 3. Design implementation left for your design but the application should be a dynamic as much as you can.
 
-### Specific Requirements
+### Specific Requirements (Bonus)
 
 1. different users can use the application and each category can do different stuff (eg. Doctors, Patients, Admin, ..etc)
 2. The application should use static files, file uploads (eg. patients scans)
@@ -42,13 +43,7 @@
 * Sharing few code lines of your own with your classmates is allowed for identifying and fixing bugs, it is not allowed to see others solution before submitting.
 * You must mention any kind of contribution of other mates.
 
-## Deadlines
-
-1. Phase one: **20th of may** submission of project ERD and database schema with SQL creation scripts.
-2. phase two: **3rd of June** project deliverable (project progress)
-2. phase Three: **17rd of June** Final project deliverable 
-
 ### Submitting
 
 1. Each team will provide at 10 min presentation of the selected topics. In addition to describing the implemented department.
-2. Submission will be on the deadline day which could be changed with dr ahmed 
+2. Submission will be on the deadline day which could be changed with dr Ahmed 
