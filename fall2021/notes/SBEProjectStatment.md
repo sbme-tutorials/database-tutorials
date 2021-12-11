@@ -7,9 +7,9 @@
 
 ## Deadlines: TBC
 
-## Required
+## Requirements
 
-### Main Requirements
+### Main 
 
 1. Choose a hospital department:
     * Radiology
@@ -22,10 +22,12 @@
     * Internal Medicine Departement
     * Surgery Departement
     * Obstertrics and Gynecology Departement
-2. Build a full stack web application fot that department
-3. Design implementation left for your design but the application should be a dynamic as much as you can.
+2. Build a full stack web application for the chosed department
+3. The application should enable the user to insert data about the departments modules and retrieve data also about these departments such as
+staff in this department or devices used in it.
+4. Use Bootstrap for front end part (plain Html,Css, and java script will not be consiedered)
 
-### Specific Requirements (Bonus)
+### Specific  (Bonus)
 
 1. different users can use the application and each category can do different stuff (eg. Doctors, Patients, Admin, ..etc)
 2. The application should use static files, file uploads (eg. patients scans)
