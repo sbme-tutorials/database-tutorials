@@ -5,7 +5,11 @@
 * Hospital Information Systems(HIS).
 * ERD and SQL DBMS.
 
-## Deadlines: TBC
+## Deadlines: 
+
+### Online Files and presentation submission : Saturday 8 - 1 - 2021
+
+### In person group prsentation will be held in the week from 9 : 12 - 1 - 2021
 
 ## Requirements
 
