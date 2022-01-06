@@ -15,11 +15,7 @@ Demonstrators:  Eng. Ayman Anwar.
 
 ## Office Hours
 
-| Day | Time |
-|-----|-----------|
-| Sunday | from **12pm** to **4pm** |
-
-extra office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Subject : EXOFH)
+Office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Subject : EXOFH)
 
 ## Course Outline
 
@@ -28,6 +24,11 @@ extra office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Sub
 |   1  | Introduction to full stack development and database management systems | ---- |
 |   2  | ER model and basic SQL statements | ---- |
 |   3  | Join statments and SQL Constrains| ---- |
+|   4  | Sql Grouping Statments| ---- |
+|   5  | Python Introduction| ---- |
+|   6  | Python Mysql| ---- |
+|   7  | Introduction to Flask| ---- |
+|   8  | Flask Dynamics Apps| ---- |
 
 ## Required installations
 1. Install Python (Two Options-please choose one):
