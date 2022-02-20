@@ -31,14 +31,16 @@ Office hours requested via E-Mail to **ayman.m.anwar@eng1.cu.edu.eg** (Subject :
 |   8  | Flask Dynamics Apps| ---- |
 
 ## Required installations
+1. You need to install mysql batabase enginer [here](https://dev.mysql.com/downloads/installer/)
+2. You need to install mysql workbench to enable database [here](https://dev.mysql.com/downloads/workbench/)
+
+## Optional Installations (Using Python For WebApps)
 1. Install Python (Two Options-please choose one):
     1.  Anaconda installation: [windows](https://docs.anaconda.com/anaconda/install/windows/) 
     1.  Python installation: [windows](https://www.python.org/downloads/release/python-3712/) 
 2. After installation Python you need to download two python packages:
     * install MYSQL connector: write in your Command Prompt ``` pip install mysql-connector-python ```
     * install Flask: write in your Command Prompt ``` pip install -u flask ```
-3. You need to install mysql batabase enginer [here](https://dev.mysql.com/downloads/installer/)
-4. You need to install mysql workbench to enable database [here](https://dev.mysql.com/downloads/workbench/)
 
 
 ## Notes
